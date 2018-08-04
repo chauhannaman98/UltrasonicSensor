@@ -10,9 +10,9 @@
  *   
  * The circuit:
  * * VCC connection of the sensor attached to +5V
- * * GND connection of the sensor attached to ground
- * * TRIG connection of the sensor attached to digital pin 
- * * ECHO connection of the sensor attached to digital pin 
+ * * GND connection of the sensor attached to GND
+ * * TRIG connection of the sensor attached to digital pin 13
+ * * ECHO connection of the sensor attached to digital pin 11
     
 ********************************************************************************/
 
