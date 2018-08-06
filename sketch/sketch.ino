@@ -16,8 +16,8 @@
     
 ********************************************************************************/
 
-int trigPin=13; //Sensor Trip pin connected to pin 7
-int echoPin=11;  //Sensor Echo pin connected to pin 8
+int trigPin=6; //Sensor Trip pin connected to pin 7
+int echoPin=7;  //Sensor Echo pin connected to pin 8
 float pingTime;  //time for ping to travel from sensor to target and return
 float targetDistance; //Distance to Target in inches
 float speedOfSound=776.5; //Speed of sound in miles per hour when temp is 77 degrees.
