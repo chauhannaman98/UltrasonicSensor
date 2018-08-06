@@ -11,13 +11,13 @@
  * The circuit:
  * * VCC connection of the sensor attached to +5V
  * * GND connection of the sensor attached to GND
- * * TRIG connection of the sensor attached to digital pin 13
- * * ECHO connection of the sensor attached to digital pin 11
+ * * TRIG connection of the sensor attached to digital pin 7
+ * * ECHO connection of the sensor attached to digital pin 8
     
 ********************************************************************************/
 
-int trigPin=13; //Sensor Trip pin connected to Arduino pin 13
-int echoPin=11;  //Sensor Echo pin connected to Arduino pin 11
+int trigPin=13; //Sensor Trip pin connected to pin 7
+int echoPin=11;  //Sensor Echo pin connected to pin 8
 float pingTime;  //time for ping to travel from sensor to target and return
 float targetDistance; //Distance to Target in inches
 float speedOfSound=776.5; //Speed of sound in miles per hour when temp is 77 degrees.
